@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LotationSampleModule" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3du-6h-rPf">
+                                <rect key="frame" x="97" y="243.5" width="180" height="180"/>
+                                <color key="backgroundColor" red="0.61714462373006596" green="0.74600371836385326" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="8WV-8k-6ys"/>
+                                    <constraint firstAttribute="height" constant="180" id="XVn-KU-cFh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Push">
+                                    <color key="titleColor" red="0.98126471739999999" green="0.99794755140000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fm1-Ye-Emf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3du-6h-rPf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Spi-JA-bH1"/>
+                            <constraint firstItem="3du-6h-rPf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aO7-jE-hOJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Change Lotation-->
+        <scene sceneID="nxA-Ma-BtU">
+            <objects>
+                <viewController storyboardIdentifier="ChangeLotation" id="Hu5-cd-kya" customClass="ChangeLotation" customModule="LotationSampleModule" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4UM-gK-NOw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hellow World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rf5-2C-0Lw">
+                                <rect key="frame" x="88.5" y="312.5" width="198.5" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xja-Si-faN">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.77778146532673731" blue="0.24357169839371251" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="SZT-Ek-Zhs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Change Lotation">
+                                    <color key="titleColor" red="0.98126471739999999" green="0.99794755140000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeLotation:" destination="Hu5-cd-kya" eventType="touchUpInside" id="m8k-tJ-udw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xja-Si-faN" firstAttribute="leading" secondItem="5Gs-yr-kXk" secondAttribute="leading" id="B96-5b-Anp"/>
+                            <constraint firstItem="Rf5-2C-0Lw" firstAttribute="centerY" secondItem="4UM-gK-NOw" secondAttribute="centerY" id="Ghf-P8-W2G"/>
+                            <constraint firstItem="Rf5-2C-0Lw" firstAttribute="centerX" secondItem="4UM-gK-NOw" secondAttribute="centerX" id="dy3-Ml-BdU"/>
+                            <constraint firstItem="5Gs-yr-kXk" firstAttribute="trailing" secondItem="Xja-Si-faN" secondAttribute="trailing" id="qt7-rB-bn9"/>
+                            <constraint firstItem="5Gs-yr-kXk" firstAttribute="bottom" secondItem="Xja-Si-faN" secondAttribute="bottom" id="qxa-dg-YyE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5Gs-yr-kXk"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnPush" destination="Rf5-2C-0Lw" id="mDe-CL-5F2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XGT-7m-tPm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="762" y="49"/>
+        </scene>
+    </scenes>
+</document>
