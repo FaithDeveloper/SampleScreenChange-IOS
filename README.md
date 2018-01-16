@@ -7,4 +7,4 @@
   
 #### 2. How to create this project.
 
-[Go to WebSite for CallKit](http://faith-developer.tistory.com/entry/SWIFT-%ED%99%94%EB%A9%B4-%ED%9A%8C%EC%A0%84-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
+[Go to WebSite](http://faith-developer.tistory.com/entry/SWIFT-%ED%99%94%EB%A9%B4-%ED%9A%8C%EC%A0%84-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
